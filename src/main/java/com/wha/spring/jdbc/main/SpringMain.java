@@ -10,17 +10,13 @@ import com.wha.spring.jdbc.model.Employee;
 
 public class SpringMain {
 	
-	
-	
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		//testDao(ctx);
 		
 		testJdbcDao(ctx);
-		
 		ctx.close();	
-	
 	}
 
 	private static void testDao(ClassPathXmlApplicationContext ctx) {
@@ -29,7 +25,7 @@ public class SpringMain {
 		Employee emp = new Employee();
 		int rand = new Random().nextInt(1000);
 		emp.setId(rand);
-		emp.setName("Alain");
+		emp.setName("Sam");
 		emp.setRole("Director");
 					
 		// Create Employee

@@ -33,7 +33,7 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
 		<property name="driverClassName" value="org.sqlite.JDBC" />
-		<property name="url" value="jdbc:sqlite:C:\developpements\eclipse-workspace\SpringJDBCExample\src\main\resources\base.db" />
+		<property name="url" value="jdbc:sqlite:C:\Users\ELLEUCH\git\Formation-SpringJDBC\src\main\resources\base.db" />
 	
 	</bean>
 	
